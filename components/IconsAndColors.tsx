@@ -63,25 +63,61 @@ export type IconName =
   | "watch" | "watch-outline" | "water" | "water-outline" | "wifi" | "wifi-outline"
   | "wine" | "wine-outline" | "woman" | "woman-outline";
 
-export const iconList: IconName[] = [
-  'home', 'radio', 'cart', 'heart', 'person', 'settings', 'star', 'book', 'camera', 'car', 'airplane',
-  'alarm', 'analytics', 'apps', 'archive', 'attach', 'barbell', 'basket', 'bluetooth',
-  'briefcase', 'build', 'bulb', 'bus', 'business', 'cafe', 'calendar', 'call', 'cash',
-  'chatbox', 'checkbox', 'clipboard', 'cloud', 'code', 'compass', 'construct', 'copy',
-  'document', 'download', 'earth', 'easel', 'egg', 'exit', 'eye', 'film', 'filter',
-  'finger-print', 'fish', 'flag', 'flash', 'flask', 'flower', 'folder', 'football',
-  'game-controller', 'gift', 'grid', 'hammer', 'happy', 'headset', 'help', 'hourglass',
-  'ice-cream', 'image', 'infinite', 'information', 'journal', 'key', 'language', 'laptop',
-  'layers', 'leaf', 'library', 'link', 'list', 'location', 'lock-closed', 'lock-open',
-  'mail', 'map', 'medal', 'medical', 'megaphone', 'menu', 'mic', 'moon', 'musical-note',
-  'newspaper', 'notifications', 'nutrition', 'pencil', 'people', 'pie-chart', 'pin',
-  'planet', 'play', 'print', 'pulse', 'rocket', 'school', 'search', 'send',
-  'share', 'shield', 'shirt', 'shuffle', 'stopwatch', 'sunny',
-  'tennisball', 'thumbs-up', 'time', 'trophy', 'umbrella', 'videocam', 'wallet', 'warning',
-  'water', 'wifi', 'wine'
-];
+  export const iconList: IconName[] = [
+    'home', 'radio', 'cart', 'heart', 'person', 'settings', 'star', 'book', 'camera', 'car', 'airplane',
+    'alarm', 'analytics', 'apps', 'archive', 'attach', 'barbell', 'basket', 'bluetooth',
+    'briefcase', 'build', 'bulb', 'bus', 'business', 'cafe', 'calendar', 'call', 'cash',
+    'chatbox', 'checkbox', 'clipboard', 'cloud', 'code', 'compass', 'construct', 'copy',
+    'document', 'download', 'earth', 'easel', 'egg', 'exit', 'eye', 'film', 'filter',
+    'finger-print', 'fish', 'flag', 'flash', 'flask', 'flower', 'folder', 'football',
+    'game-controller', 'gift', 'grid', 'hammer', 'happy', 'headset', 'help', 'hourglass',
+    'ice-cream', 'image', 'infinite', 'information', 'journal', 'key', 'language', 'laptop',
+    'layers', 'leaf', 'library', 'link', 'list', 'location', 'lock-closed', 'lock-open',
+    'mail', 'map', 'medal', 'medical', 'megaphone', 'menu', 'mic', 'moon', 'musical-note',
+    'newspaper', 'notifications', 'nutrition', 'pencil', 'people', 'pie-chart', 'pin',
+    'planet', 'play', 'print', 'pulse', 'rocket', 'school', 'search', 'send',
+    'share', 'shield', 'shirt', 'shuffle', 'stopwatch', 'sunny',
+    'tennisball', 'thumbs-up', 'time', 'trophy', 'umbrella', 'videocam', 'wallet', 'warning',
+    'water', 'wifi', 'wine', 'home-outline', 'cart-outline', 'heart-outline', 'person-outline',
+    'settings-outline', 'star-outline', 'book-outline', 'camera-outline', 'car-outline',
+    'airplane-outline', 'alarm-outline', 'analytics-outline', 'apps-outline', 'archive-outline',
+    'barbell-outline', 'basket-outline', 'bluetooth-outline', 'briefcase-outline', 'build-outline',
+    'bulb-outline', 'bus-outline', 'business-outline', 'cafe-outline', 'calendar-outline',
+    'call-outline', 'cash-outline', 'chatbox-outline', 'checkbox-outline', 'clipboard-outline',
+    'cloud-outline', 'code-outline', 'compass-outline', 'construct-outline', 'copy-outline',
+    'document-outline', 'download-outline', 'earth-outline', 'easel-outline', 'egg-outline',
+    'exit-outline', 'eye-outline', 'film-outline', 'filter-outline', 'finger-print-outline',
+    'fish-outline', 'flag-outline', 'flash-outline', 'flask-outline', 'flower-outline',
+    'folder-outline', 'football-outline', 'game-controller-outline', 'gift-outline', 'grid-outline',
+    'hammer-outline', 'happy-outline', 'headset-outline', 'help-circle', 'hourglass-outline',
+    'ice-cream-outline', 'image-outline', 'images-outline', 'infinite-outline', 'information-circle',
+    'information-outline', 'journal-outline', 'key-outline', 'language-outline', 'laptop-outline',
+    'layers-outline', 'leaf-outline', 'library-outline', 'link-outline', 'list-outline',
+    'location-outline', 'lock-closed-outline', 'lock-open-outline', 'mail-outline', 'map-outline',
+    'medal-outline', 'medical-outline', 'megaphone-outline', 'menu-outline', 'mic-outline',
+    'moon-outline', 'musical-note-outline', 'newspaper-outline', 'notifications-outline',
+    'nutrition-outline', 'pencil-outline', 'people-outline', 'phone-portrait-outline',
+    'pie-chart-outline', 'pin-outline', 'planet-outline', 'play-outline', 'power-outline',
+    'pricetag-outline', 'print-outline', 'pulse-outline', 'push-outline', 'radio-outline',
+    'refresh-outline', 'reload-outline', 'remove-outline', 'restaurant-outline', 'return-down-back-outline',
+    'rocket-outline', 'save-outline', 'scan-outline', 'school-outline', 'search-outline', 'send-outline',
+    'share-outline', 'shield-outline', 'shirt-outline', 'shuffle-outline', 'skull-outline',
+    'snow-outline', 'speedometer-outline', 'square-outline', 'stop-outline', 'stopwatch-outline',
+    'sunny-outline', 'swap-horizontal-outline', 'sync-outline', 'tablet-landscape-outline',
+    'tablet-portrait-outline', 'tennisball-outline', 'terminal-outline', 'text-outline',
+    'thermometer-outline', 'thumbs-down-outline', 'thumbs-up-outline', 'thunderstorm-outline',
+    'time-outline', 'timer-outline', 'today-outline', 'toggle-outline', 'trail-sign-outline',
+    'train-outline', 'transgender-outline', 'trash-outline', 'trophy-outline', 'tv-outline',
+    'umbrella-outline', 'videocam-outline', 'volume-high-outline', 'walk-outline', 'wallet-outline',
+    'warning-outline', 'watch-outline', 'water-outline', 'wifi-outline', 'wine-outline', 'woman-outline'
+  ];  
 
-export const colorList = [
-  '#FF7306', '#FF0A0A', '#0A0AFF', '#0AFF0A', '#FFFF0A', '#0AFFFF', '#FF00FF',
-  '#800080', '#FFA500', '#008000', '#4B0082', '#FF69B4', '#1E90FF', '#FFD700'
-];
+  export const colorList = [
+    '#FF7306', '#FF0A0A', '#0A0AFF', '#0AFF0A', '#FFFF0A', '#0AFFFF',
+    '#FF69B4', '#1E90FF', '#48d1cc', '#FFD700', '#FF4500', '#FF6347',
+    '#DA70D6', '#DC143C', '#00BFFF', '#40E0D0', '#BA55D3', '#FF1493',
+    '#FFA500', '#FFDB58', '#00FF7F', '#32CD32', '#00CED1',
+    '#FF0080', '#FF5722', '#FFEB3B', '#E91E63', '#4CAF50', '#FF9800',
+    '#9C27B0', '#FFC107', '#00BFAE', '#E64A19', '#C2185B', '#8BC34A',
+    '#FF4081', '#03A9F4', '#8E24AA', '#CDDC39', '#7C4DFF', '#FF6F00'
+  ];  

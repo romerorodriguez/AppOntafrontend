@@ -363,7 +363,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   modalButtonText: {
-    color: 'white',
+    color: 'white'
   },
   separator: {
     height: 1,
@@ -388,6 +388,8 @@ const styles = StyleSheet.create({
     width: '80%',
     justifyContent: 'center',
     alignItems: 'center',
+    borderWidth: 3, 
+    borderColor: '#000033',
   },
   textInput: {
     width: '100%',
@@ -407,6 +409,7 @@ const styles = StyleSheet.create({
   saveButtonText: {
     color: 'white',
     fontSize: 16,
+    fontWeight: 'bold',
   },
   cancelButton: {
     backgroundColor: '#0270D0',

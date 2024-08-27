@@ -42,7 +42,6 @@ const CrearCategoria = () => {
     navigation.navigate('Inicio', { refresh: true });
 };
 
-
   const renderIconItem = ({ item }: { item: IconName }) => (
     <TouchableOpacity onPress={() => {
       setSelectedIcon(item);
